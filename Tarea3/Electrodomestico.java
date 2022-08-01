@@ -9,11 +9,11 @@ public class Electrodomestico {
 
 
     // Constructor
-    Electrodomestico (int i, String string, String string2, int jInteger precioBase; String color; String consumoEnergetico;Integer peso) {
-        this.precioBase = PrecioBase;
-        this.color= Color;
-        this.consumoEnergetico = ConsumoEnergetico;
-        this.peso=Peso;
+    Electrodomestico ( Integer nuevoPrecioBase, String nuevoColor, String nuevoConsumoEnergetico,Integer nuevoPeso) {
+        this.precioBase = nuevoPrecioBase;
+        this.color= nuevoColor;
+        this.consumoEnergetico = nuevoConsumoEnergetico;
+        this.peso=nuevoPeso;
 
     }
 }
